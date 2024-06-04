@@ -1,0 +1,9 @@
+Simple fixed polynomial multiplications;
+f(x)=x^4-x^3+x-1,
+g(x)=x^3+x^2+x+1,
+computing in Z_17:
+x^4+16x^3+x+16
+*
+x^3+x^2+x+1
+=
+x^7+x^4+16x^3+16

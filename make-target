@@ -1,0 +1,29 @@
+# file: make-target
+#
+#	Please modify the contents of this file in order
+# 		to create targets for your own personal use.
+#	The current file illustrates how I can create
+#		targets to test my programs
+#
+#		REMEMBER: you must not interfere with our targets
+#		E.g., do not have "t34" or "test34" as a target
+#		because 34 is less than 100.  But you could have "t101".
+#############################################
+#	Prof. Chee Yap (Basic Algorithms)
+#############################################
+
+# test 101:
+#	HINT: if you want this output to go into the file "TESTOUTPUT101"
+#	you can type:
+#			> make t101 > TESTOUTPUT101
+t101 test101 TESTOUTPUT101:
+	@echo "hw7, TESTOUTPUT101 : "
+	$(java) $(rflags) -classpath bin PolyMul 1 30 101 
+
+# test 102:
+t102 test102 TESTOUTPUT102:
+	@echo "hw7, TESTOUTPUT102 : "
+	$(java) $(rflags) -classpath bin PolyMul 1 30 102
+
+#############################################
+#############################################

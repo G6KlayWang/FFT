@@ -1,0 +1,6 @@
+Polynomial multiplications for two random polynomials:
+2x^5+15x^4+3x^3+10x^2+9x+10
+*
+11x^5+13x^4+11x^3+16x^2+9x+16
+=
+5x^10+4x^9+12x^8+6x^7+10x^6+8x^5+10x^4+x^3+10x^2+13x+7
